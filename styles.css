@@ -341,7 +341,7 @@ h2::after {
 }
 
 .serving_div {
-    background-image: url("./IMG/trey.jpg");
+    background-image: url("IMG/trey.jpg");
     background-repeat: no-repeat;
 
     background-color: blue;
@@ -363,7 +363,7 @@ h2::after {
 }
 
 .build_div {
-    background-image: url("./IMG/building.jpg");
+    background-image: url("IMG/building.jpg");
     background-repeat: no-repeat;
 
     background-size: 1350px;
@@ -408,7 +408,7 @@ h2::after {
 .diversity {
     position: relative;
     margin-left: 100px;
-    background-image: url(./IMG/diversity.jpg);
+    background-image: url(IMG/diversity.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     object-fit: contain;
@@ -420,7 +420,7 @@ h2::after {
 
 .nutrition {
     margin-right: 100px;
-    background-image: url(./IMG/nutrition.jpg);
+    background-image: url(IMG/nutrition.jpg);
     background-repeat: no-repeat;
 
     background-size: 100%;
@@ -725,7 +725,7 @@ h2::after {
 
 .image2_div {
     background-color: black;
-    background-image: url("./IMG/careers.jpg");
+    background-image: url("IMG/careers.jpg");
     background-repeat: no-repeat;
 
 
@@ -755,7 +755,7 @@ p {
 
 .image3_div {
     background-color: black;
-    background-image: url("./IMG/partner_with.jpg");
+    background-image: url("IMG/partner_with.jpg");
     background-repeat: no-repeat;
 
     background-size: 675px;
@@ -786,7 +786,7 @@ p {
     width: 100%;
     height: 711px;
     background-color: #c05535;
-    background-image: url(./IMG/foundation.jpg);
+    background-image: url(IMG/foundation.jpg);
     background-repeat: no-repeat;
 
     background-size: 1349px;
