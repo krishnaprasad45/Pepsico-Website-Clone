@@ -1,0 +1,995 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*code for avoid overflow on horizondal scroll*/
+    box-sizing: border-box;
+    
+}
+
+body {
+    overflow-x: hidden;
+    /* padding-bottom: 7000px; */
+    margin: 0;
+
+}
+
+.main_div {
+    width: 100%;
+    height: 7000PX;
+    /* background-color: red; */
+
+}
+
+.root_div {
+    width: 100%;
+    height: 2800px;
+    /* background-color: #0af157; */
+}
+
+
+.division {
+    background-color: yellow;
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+
+.section1 {
+    background-image: url("/IMG/section1_img.gif");
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 800px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pad_pad {
+    flex: 1;
+    width: 100%;
+    height: 300px;
+    background-color: white
+}
+
+.SeperatorBlock_white {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+.bolded_text {
+    font-size: 50px;
+    color: white;
+    /* font-family: 'sans-serif'; */
+    letter-spacing: 3px;
+
+    font-weight: bold;
+
+}
+
+
+.normal_text {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.header_text {
+    color: aliceblue;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: "Graphik LC Web ";
+
+    text-decoration: none;
+
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.pad {
+    margin-left: 20px;
+    margin-top: 45px;
+
+}
+
+.RightTextColor {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pepsico_pad {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.section6_container {
+    width: 100%;
+    
+    background-color: yellow;
+    float: left;
+
+}
+
+
+
+/* ------------------------------------SECTION 1 CODES HERE----------------------------------------- */
+
+.header_div {
+    /* background-color:brown; */
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+.logo_div {
+    /* background-color: darkmagenta; */
+    width: 20%;
+    height: 100px;
+    float: left;
+
+    font-size: 20px;
+}
+
+.nav_div {
+    /* background-color: darkgreen; */
+    width: 60%;
+    height: 100px;
+    float: left;
+}
+
+.contact_div {
+    /* background-color: darkorange; */
+    height: 100px;
+    width: 20%;
+    float: left;
+
+
+}
+.Globe_icon{
+   height: 17px;
+   width: 17px;
+margin-left: 10px;  
+margin-right: 10px;}
+
+.Search_icon{
+    height: 17px;
+    width: 17px;
+ margin-left: 10px;  
+ margin-right: 10px;
+
+
+}
+
+
+
+
+.home_center_text {
+    color: #fff;
+    font-size: 62px;
+    position: relative;
+
+    font-weight: bolder;
+    letter-spacing: 0;
+    line-height: 72px;
+    text-align: center;
+    font-family: "Graphik LC Web ";
+    margin-bottom: 35px;
+    position: relative;
+    display: inline-block;
+    width: 62%;
+}
+
+.nav_pad {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pepsico_text {
+    color: azure;
+    stroke: aliceblue;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Graphik LC Web";
+   
+}
+
+
+.content_div {
+    height: 500px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+/* --------ACTIONS HERE------------- */
+h2::before {
+    position: absolute;
+    content: "";
+    right: -2px;
+    top: -35px;
+    background-image: url(/IMG/before_icon.gif);
+    width: 50px;
+    height: 95px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: scaleX(-1) rotate(-110deg);
+}
+
+h2::after {
+    position: absolute;
+    content: "";
+    left: -1px;
+    bottom: -20px;
+    background-image: url(/IMG/after_icon.gif);
+    width: 55px;
+    height: 85px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.underline_anim:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.underline_anim:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* ------------------------------------SECTION 2 CODES HERE  ( text scroll )------------------------------------ */
+
+/* .scroll_div {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: rgb(129, 172, 228);
+
+} */
+
+.scroll_text {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #1268be;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------------------SECTION 3 CODES HERE  ( My STEM Story + Image )------------------------------------ */
+.section3_div {
+    width: 100%;
+    background-color: chartreuse;
+    height: 700px;
+    float: left;
+}
+
+.writing_div {
+    background-color: #0087ca;
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+.writings_pad {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.image_div {
+    background-color: black;
+    background-image: url("/IMG/play.png");
+    background-repeat: no-repeat;
+
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+/* ------------------------------------SECTION 4 CODES HERE  ( Chilli_image + Serving_image )------------------------------------ */
+.section4_div {
+    background-color: white;
+    width: 100%;
+    height: 850px;
+    float: left;
+
+}
+
+.chilli_div {
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(221, 15, 111); */
+
+}
+
+.serving_div {
+    background-image: url("/IMG/trey.jpg");
+    background-repeat: no-repeat;
+
+    background-color: blue;
+    background-size: 1350px;
+    width: 1150px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+/* ---------------------- SECTION 5  ( Building a stronger text on image ) ------------------------------ */
+
+.section5_div {
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+
+.build_div {
+    background-image: url("/IMG/building.jpg");
+    background-repeat: no-repeat;
+
+    background-size: 1350px;
+    width: 1150px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text_pad {
+    padding-top: 450px;
+    text-align: center;
+}
+
+.top_text {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+.bolded_text_mid {
+    color: black;
+    background-color: #fff;
+    font-size: 62px;
+    font-weight: bolder;
+    font-family: "Graphik LC Web";
+}
+
+/*----------------------- SECTION 6  ( Diversity and Nutrition ) ---------------------- */
+
+.section6 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 399px;
+    width: 100%;
+    gap: 1em;
+    float: left;
+}
+
+.diversity {
+    position: relative;
+    margin-left: 100px;
+    background-image: url(/IMG/diversity.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: contain;
+    width: 800px;
+    height: 378px;
+    float: left;
+
+}
+
+.nutrition {
+    margin-right: 100px;
+    background-image: url(/IMG/nutrition.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    object-fit: contain;
+    width: 800px;
+    height: 378px;
+    float: left;
+}
+
+.texton_left {
+    position: absolute;
+
+    background-color: white;
+    
+    font-size: 35px;
+    color: black;
+    margin-top: 250px;
+    font-weight: bolder;
+    font-family: "Graphik LC Web";
+}
+.textContainer{
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.textContainer span{
+    font-family: Arial, Helvetica, sans-serif   ;
+    letter-spacing: 1px;
+    font-weight: 900;
+    
+}
+
+.textContainer div{
+    font-family: Arial, Helvetica, sans-serif   ;
+    letter-spacing: 1px;
+    
+}
+
+
+
+
+
+.left_section{
+    width: 43%;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    /* background-color: #FFC107; */
+}
+
+.right_section{
+    row-gap: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    /* background-color: #c05535; */
+}
+
+
+
+.text_para {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1px;
+    height: 100px;
+    background-color: rgb(6, 211, 84);
+    width: 100%;
+
+}
+
+.row {
+    background-color: yellow;
+    width: 1155px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 200px;
+    float: left;
+
+}
+
+.co1 {
+    margin: 577px;
+    height: 200px;
+    float: left;
+    color: azure;
+}
+
+.col2 {
+
+
+    background-color: darkorange;
+
+
+}
+
+/*----------------------- SECTION 7  ( Lets Eat ) ---------------------- */
+.container7 {
+    background-color: #c05535;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+
+.lets_eat_star_icons{
+    height: 60px;
+    width: 60px;
+}
+.lets_eat_shopping_icons{
+    height: 60px;
+    width: 60px;
+}
+
+.lets_eat_location_icons{
+    height: 60px;
+    width: 60px;
+}
+
+
+.center_text {
+    /* background-color: green; */
+    /* width: 100%; */
+    height: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 62px;
+    text-align: center;
+    /* float: left; */
+    font-family: "Graphik LC Web";
+}
+
+
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+.MediumText {
+    font-family: "Graphik LC Web";
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+
+
+}
+
+
+.Could_section{
+    width: 100%;
+    height: 170px;
+    background-color: #c05535;
+
+
+}
+
+.Lets_Eat_Text{
+    color: white;
+    font-weight: bolder;
+    font-size: 62px;
+    text-align: center;
+    font-family: "Graphik LC Web";
+    height: 150px;
+    background-color: #c05535;
+    width: 100%;
+
+
+}
+.Three_in_One{
+    height: 300px;
+    /* background-color: #FFC107; */
+    background-color: #c05535;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.Three_1{
+    /* background-color: aqua; */
+    height: 200px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1 fr 1fr;
+    
+    justify-items: center;
+}
+.Three_2{
+    border-left: 2px solid rgb(158, 153, 153);
+    border-right: 2px solid rgb(167, 162, 162);
+  
+    justify-items: center;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1 fr 1fr;
+}
+.Three_3{
+    /* background-color: rgb(0, 255, 64); */
+    height: 200px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    justify-items: center;
+    grid-template-rows: 1fr 1 fr 1fr;
+}
+
+/*----------------------- SECTION 8  ( Stay connected ) ---------------------- */
+.section8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 300px;
+    background-color: white;
+}
+
+.Top_Text {
+
+    font-family: "Graphik LC Web";
+    font-size: 35px;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.Bottom_Text {
+    margin-top: 90px;
+    margin-left: 20PX;
+    font-family: Graphik Lc Web !important;
+    font-size: 180px !important;
+    font-weight: 900 !important;
+    color: #eeefef !important;
+    letter-spacing: 0 !important;
+    position: absolute;
+}
+
+.Overlap {
+    display: flex;
+    justify-items: flex-start;
+    float: left;
+}
+
+.bar {
+    float: left;
+    /* margin-left: 40px; */
+    background-color: #004c97;
+    height: 8px;
+    width: 32px;
+    margin-top: 10px;
+    /* margin-right: 12px;
+    margin-top: 90px; */
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+    margin-left: 40PX;
+    height: 40px;
+    position: relative;
+}
+
+.img_chip {
+
+    padding-top: 150px;
+}
+
+.img_Orange {
+    padding-top: 59px;
+    position: relative;
+    right: -5%;
+
+}
+
+/*----------------------- SECTION  ( Careers ) ---------------------- */
+
+.sectionCareers_div {
+    width: 100%;
+    background-color: rgb(18, 110, 231);
+    height: 700px;
+    float: left;
+}
+
+
+.image2_div {
+    background-color: black;
+    background-image: url("/IMG/careers.jpg");
+    background-repeat: no-repeat;
+
+
+    background-size: 675px;
+
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+.writing2_div {
+    line-height: 60px;
+    padding-top: 306px;
+    padding-left: 100px;
+    background-color: white;
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+p {
+    font-family: "Graphik LC Web";
+    font-weight: 900;
+}
+
+/*----------------------- SECTION  ( Partners ) ---------------------- */
+
+.image3_div {
+    background-color: black;
+    background-image: url("/IMG/partner_with.jpg");
+    background-repeat: no-repeat;
+
+    background-size: 675px;
+
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+.writing3_div {
+    line-height: 60px;
+    padding-top: 306px;
+    padding-left: 100px;
+    background-color: #FFC107;
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+.individual {
+    line-height: 30px;
+}
+
+/*----------------------- SECTION  ( Foundation ) ---------------------- */
+
+
+.foundation {
+    width: 100%;
+    height: 711px;
+    background-color: #c05535;
+    background-image: url(/IMG/foundation.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 1349px;
+    float: left;
+}
+
+.writing4_div {
+    line-height: 60px;
+    padding-top: 306px;
+    padding-left: 100px;
+
+    width: 50%;
+    height: 700px;
+    float: left;
+
+}
+
+.found_text {
+    width: 400px;
+    font-family: "Graphik LC Web";
+    font-weight: 900;
+    font-size: 50px;
+    background-color: white;
+}
+
+/*----------------------- SECTION  ( ImageGrid ) ---------------------- */
+
+.image_Grid {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 240px;
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.HeadText {
+    font-size: 23px;
+    font-family: "Graphik LC Web", Montserrat, "Open Sans", Helvetica, Arial;
+    font-weight: 1000;
+    display: inline-block;
+}
+
+.LeadText {
+    font-size: 15px;
+    font-family: "Arial";
+    font-weight: 900;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.ItemContainer {
+
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.LeadText:hover {
+    text-decoration: underline;
+}
+
+/*----------------------- SECTION  ( LongImageGrid ) ---------------------- */
+
+.Slide_image_Grid {
+
+   
+    width: 100%;
+    background-color: #004c97;
+    ;
+    height: 605px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.SlideItemContainer {
+    margin-left: 7px;
+    margin-top: 113px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+
+.LongPara {
+    width: 323px;
+    font-size: 15px;
+    font-family: "Arial";
+    font-weight: 900;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+
+}
+/*----------------------- SECTION  ( FooterSection ) ---------------------- */
+
+
+.FooterSection{
+  width: 100%;
+  background-color: #004c97;
+  height: 600px;
+  float: left;
+
+}
+.FooterContainer{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    
+    width: 80%;
+  /* background-color: rgb(46, 11, 145); */
+  height: 500px;
+  float: left;
+}
+
+.mainRow1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: royalblue; */
+    height: 100px;
+}
+.mainRow2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(201, 225, 65); */
+    height: 110px;
+    line-height: 2;
+}
+.Fcol1{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 18px;
+    font-family:Arial;
+    
+    width: 50%;
+    /* background-color: rgb(209, 102, 14); */
+    height:160;
+    float: left;
+
+}
+.Fcol2{
+    column-gap: 10px;
+    display: flex;
+    justify-content: end;
+
+    width: 50%;
+    /* background-color: rgb(4, 158, 94); */
+    height:160;
+    float: left;
+
+}
+
+.mainRow3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(179, 14, 82); */
+    height: 160px;
+}
+.Lcol1{
+
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    /* background-color: rgb(58, 14, 179); */
+    height: 160px;
+
+}
+.Lrow1{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    row-gap: 10px;
+    column-gap: 11px;
+    font-weight: 900;
+}
+
+.Lcol2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 2.5;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
